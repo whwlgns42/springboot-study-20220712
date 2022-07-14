@@ -1,12 +1,14 @@
-package com.springboot.studyjihun.web.controller;
+package com.springboot.studyjunil.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class MethodStudyController {
+public class PageController {
+
 	@GetMapping({"/", "/index"})
-	public String getMethod() {
-		return "method/get";
+	public String indexPage() {
+		return "index";
 	}
+	
 }

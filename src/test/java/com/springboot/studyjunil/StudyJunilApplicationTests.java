@@ -1,10 +1,10 @@
-package com.springboot.studyjihun;
+package com.springboot.studyjunil;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudyJihunApplicationTests {
+class StudyJunilApplicationTests {
 
 	@Test
 	void contextLoads() {
